@@ -31,7 +31,7 @@ A Python script that connects to your local Plex Media Server installation and g
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/plex-movie-exporter.git
+git clone https://github.com/PrimePoobah/plex-movie-exporter.git
 cd plex-movie-exporter
 ```
 
@@ -42,16 +42,16 @@ pip install plexapi pandas openpyxl
 
 ## Configuration
 
-Before running the script, modify the `base_url` variable in the script to match your Plex server's address:
+Before running the script, modify the `PLEX_URL` variable in the script to match your Plex server's address:
 
 ```python
-base_url = 'http://plex.h0m3l4b.ca:32400'  # Replace with your Plex server address
+PLEX_URL = '{Plex IP or URL}:32400'  # Replace with your Plex server address
 ```
 
 If your Plex server requires authentication, you'll need to add your Plex token to the `connect_to_plex` function call:
 
 ```python
-plex = connect_to_plex(base_url, token='your-plex-token-here')
+plex = connect_to_plex(PLEX_URL, token='your-plex-token-here')
 ```
 
 To find your Plex token, follow the instructions in the [Plex documentation](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/).
