@@ -5,7 +5,7 @@ from urllib.parse import urlparse      # Library for parsing URLs
 import sys                            # Library for system-level operations
 
 # Configuration settings for the script
-PLEX_URL = 'http://{Plex_IP_or_URL}}:32400'  # URL of your Plex server
+PLEX_URL = 'http://{Plex_IP_or_URL}:32400'  # URL of your Plex server
 PLEX_TOKEN = '{PlexToken}'  # Your Plex authentication token
 
 def connect_to_plex(PLEX_URL, PLEX_TOKEN):
