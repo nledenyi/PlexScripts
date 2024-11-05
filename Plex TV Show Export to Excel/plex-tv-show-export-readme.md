@@ -37,7 +37,7 @@ pip install plexapi requests pandas openpyxl
 Before running the script, you need to configure the following variables in the script:
 
 ```python
-PLEX_URL = 'http://plex.h0m3l4b.ca:32400'  # Your Plex server URL
+PLEX_URL = 'http://{Plex_IP_or_URL}:32400'  # Your Plex server URL
 PLEX_TOKEN = 'YOUR_PLEX_TOKEN'              # Your Plex authentication token
 ```
 
