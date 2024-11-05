@@ -123,7 +123,7 @@ Errors are logged to the console during execution.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the GPL-3.0 License. See the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgments
 
