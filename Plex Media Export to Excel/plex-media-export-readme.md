@@ -139,7 +139,7 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 ## 📄 License
 
-This project is licensed under the GPL License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GPL License - see the [LICENSE]() file for details.
 
 ## 🙏 Acknowledgments
 
@@ -150,9 +150,9 @@ This project is licensed under the GPL License - see the [LICENSE](LICENSE) file
 
 ## 📮 Contact
 
-Your Name - [@yourusername](https://github.com/yourusername)
+Your Name - [@yourusername](https://github.com/PrimePoobah)
 
-Project Link: [https://github.com/yourusername/plex-media-export](https://github.com/yourusername/plex-media-export)
+Project Link: [https://github.com/PrimePoobah/plex-media-export](https://github.com/PrimePoobah/plex-media-export)
 
 ## ❤️ Support
 
