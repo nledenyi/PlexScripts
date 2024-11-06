@@ -150,9 +150,9 @@ This project is licensed under the GPL License - see the [LICENSE](https://githu
 
 ## 📮 Contact
 
-Your Name - [@yourusername](https://github.com/PrimePoobah)
+Your Name - [@PrimePoobah](https://github.com/PrimePoobah)
 
-Project Link: [https://github.com/PrimePoobah/plex-media-export](https://github.com/PrimePoobah/plex-media-export)
+Project Link: [https://github.com/PrimePoobah/PlexScripts/plex-media-export](https://github.com/PrimePoobah/PlexScripts/plex-media-export)
 
 ## ❤️ Support
 
