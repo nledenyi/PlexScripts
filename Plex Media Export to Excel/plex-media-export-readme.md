@@ -2,7 +2,7 @@
 
 A Python utility that generates a detailed Excel report of your Plex Media Server library. The tool provides an easy way to audit your media collection, highlighting video quality and tracking TV show completeness through TVMaze integration.
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![License](https://img.shields.io/badge/license-GPL-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.6+-blue.svg)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
