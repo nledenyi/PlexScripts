@@ -4,7 +4,7 @@ This repository provides Python scripts designed to export content from a Plex M
 
 ## Scripts
 
-### Plex Media Exporter
+### Plex Movie Exporter
 A Python script that connects to your local Plex Media Server installation and generates an Excel spreadsheet containing details about your movie collection. This tool helps you maintain an offline catalog of your Plex movie library with key information such as video resolution, year, studio, and content rating.
 
 ##### Features
@@ -21,6 +21,21 @@ A Python script that connects to your local Plex Media Server installation and g
 - Automatically sorts movies alphabetically by title
 - Handles missing data gracefully
 - Provides progress feedback during execution
+
+### Plex TV Show Exporter
+A Python script that audits your Plex TV Show library against TVMaze data to create a detailed Excel report showing which shows and seasons are complete or missing episodes.
+
+##### Features
+- Automatically scans your entire Plex TV Show library
+- Cross-references each show with TVMaze to get official episode counts
+- Generates a color-coded Excel report showing:
+- Complete series status
+- Episode counts for each season
+- Missing episodes highlighted in red
+- Complete seasons highlighted in green
+- Non-existent seasons grayed out
+- Dynamic column generation based on the maximum number of seasons found
+- Detailed progress logging during execution
 
 ## Contributing
 
