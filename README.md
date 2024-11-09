@@ -37,6 +37,25 @@ A Python script that audits your Plex TV Show library against TVMaze data to cre
 - Dynamic column generation based on the maximum number of seasons found
 - Detailed progress logging during execution
 
+### Plex Media Export
+A Python utility that generates a detailed Excel report of your Plex Media Server library. The tool provides an easy way to keep track of your media collection, highlighting video quality and tracking TV show completeness through TVMaze integration.
+
+##### Features
+- This script creates a comprehensive Excel spreadsheet with two worksheets:
+  - Movies: Displays all movies with resolution-based highlighting
+  - TV Shows: Shows episode completion status verified against TVMaze
+- Complete movie library inventory
+- Resolution-based row highlighting:
+  - 4K content (Light Green)
+  - SD/480p/720p content (Yellow)
+  - 1080p content (No highlight)
+- Video format and file path information
+- TV Show Tracking
+- Series completion overview
+- Season-by-season episode verification
+- Color-coded status indicators
+- TVMaze database integration
+
 ## Contributing
 
 We welcome contributions to the Plex project! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
