@@ -30,7 +30,7 @@ from requests import Session
 
 # Configuration constants
 PLEX_URL = 'http://{PlexURLorIP}:32400'    # Your Plex server URL
-PLEX_TOKEN = '{plextoken}}'          # Your Plex authentication token
+PLEX_TOKEN = '{plextoken}'          # Your Plex authentication token
 TVMAZE_API = 'https://api.tvmaze.com'         # TVMaze API endpoint
 
 # Initialize global session for better HTTP performance
