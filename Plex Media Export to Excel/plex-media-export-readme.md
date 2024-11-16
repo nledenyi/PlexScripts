@@ -41,7 +41,7 @@ This script creates a comprehensive Excel spreadsheet with two worksheets:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/plex-media-export.git
+git clone https://github.com/PrimePoobah/plex-media-export.git
 cd plex-media-export
 ```
 
