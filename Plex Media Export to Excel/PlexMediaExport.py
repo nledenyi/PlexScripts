@@ -337,7 +337,7 @@ def main():
     filename = f"PlexMediaExport_{timestamp}.xlsx"
     wb.save(filename)
     
-    print(f"Export complete! Found {len(movie_list)} movies and {len(shows_data)} TV shows.")
+    print(f"Export complete! Found {len(movie_list)} movies and {len(shows_data)} TV series.")
     print(f"Report saved as: {filename}")
 
 if __name__ == "__main__":
