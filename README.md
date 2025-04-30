@@ -14,9 +14,9 @@ A comprehensive collection of Python utilities designed to export content from y
 
 This repository contains three specialized scripts for Plex content management:
 
-1. **Plex Media Export** - A complete solution that combines movie and TV show tracking in a single Excel workbook
-2. **Plex Movie List Exporter** - A focused utility for movie library cataloging
-3. **Plex TV Show Audit Tool** - A specialized script for tracking TV show completion status with TVMaze integration
+1. [**Plex Media Export**](https://github.com/PrimePoobah/PlexScripts/tree/main/Plex%20Media%20Export%20to%20Excel) - A complete solution that combines movie and TV show tracking in a single Excel workbook
+2. [**Plex Movie List Exporter**](https://github.com/PrimePoobah/PlexScripts/tree/main/Plex%20Movie%20List%20Export%20to%20Excel) - A focused utility for movie library cataloging
+3. [**Plex TV Show Audit Tool**](https://github.com/PrimePoobah/PlexScripts/tree/main/Plex%20TV%20Show%20Export%20to%20Excel) - A specialized script for tracking TV show completion status with TVMaze integration
 
 All tools are designed to be user-friendly, performance-optimized, and provide valuable insights into your media collection.
 
