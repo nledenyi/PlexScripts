@@ -151,17 +151,6 @@ Output: `plex_tv_shows_YYYYMMDD.xlsx` showing series and season completion statu
 - 🟥 **Red**: Incomplete series/season
 - ⬛ **Gray**: Non-existent season
 
-## 🛣️ Roadmap
-
-- [ ] Multiple Plex library support
-- [ ] Command-line configuration
-- [ ] Alternative TV show databases
-- [ ] Additional export formats (CSV, JSON)
-- [ ] Enhanced logging system
-- [ ] Movie database verification (TMDB, OMDB)
-- [ ] Music library support
-- [ ] Custom colorization options
-
 ## 📝 Requirements
 
 ```
