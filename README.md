@@ -7,7 +7,6 @@
 ![TVMaze Integration](https://img.shields.io/badge/TVMaze-integrated-informational)
 ![Pandas](https://img.shields.io/badge/Pandas-powered-ff69b4)
 ![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)
-![Last Commit](https://img.shields.io/github/last-commit/PrimePoobah/plex-media-export?color=orange&label=last%20update)
 ![Stars](https://img.shields.io/github/stars/PrimePoobah/plex-media-export?style=social)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
