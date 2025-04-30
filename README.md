@@ -7,7 +7,6 @@
 ![TVMaze Integration](https://img.shields.io/badge/TVMaze-integrated-informational)
 ![Pandas](https://img.shields.io/badge/Pandas-powered-ff69b4)
 ![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 A comprehensive collection of Python utilities designed to export content from your Plex Media Server into detailed Excel reports. These tools help you catalog, audit, and manage your movie and TV show collections with powerful features like resolution tracking and TV show completeness verification.
 
