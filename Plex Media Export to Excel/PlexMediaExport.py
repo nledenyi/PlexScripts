@@ -11,6 +11,7 @@
 # - Cached TVMaze lookups
 # - Resolution-based highlighting
 # - TV show completion tracking
+# - Sortable and filterable Excel headers
 ################################################################################
 
 # Standard library imports
@@ -26,6 +27,7 @@ import pandas as pd
 from openpyxl import Workbook
 from openpyxl.styles import PatternFill, Font, Border, Side, Alignment
 from openpyxl.utils import get_column_letter
+from openpyxl.worksheet.table import Table, TableStyleInfo
 from requests import Session
 
 # Configuration constants
@@ -184,6 +186,30 @@ def apply_cell_styling(
     if fill:
         cell.fill = fill
 
+def create_table(ws, table_name, data_range, style_name='TableStyleMedium2'):
+    """
+    Create an Excel table with filtering enabled.
+    
+    Args:
+        ws: Worksheet to add table to
+        table_name: Name of the table (must be unique within workbook)
+        data_range: Range of cells for the table (e.g., 'A1:G100')
+        style_name: Excel built-in table style to apply
+    
+    Returns:
+        Table: The created table object
+    """
+    table = Table(displayName=table_name, ref=data_range)
+    table.tableStyleInfo = TableStyleInfo(
+        name=style_name,
+        showFirstColumn=False,
+        showLastColumn=False,
+        showRowStripes=True,
+        showColumnStripes=False
+    )
+    ws.add_table(table)
+    return table
+
 def auto_adjust_columns(ws):
     """
     Automatically adjust column widths in worksheet.
@@ -229,6 +255,15 @@ def create_movies_worksheet(wb: Workbook, movie_list: List[Dict]):
             alignment = 'left' if col_idx in [1, 5] else 'center'  # Title and File path left-aligned
             apply_cell_styling(cell, alignment=alignment, fill=row_fill)
 
+    # Create table with headers and all data
+    last_row = len(df) + 1  # Header row + data rows
+    last_col = len(df.columns)
+    last_col_letter = get_column_letter(last_col)
+    
+    # Create table only if there's data
+    if last_row > 1:
+        create_table(ws, "MoviesTable", f"A1:{last_col_letter}{last_row}")
+    
     auto_adjust_columns(ws)
 
 def create_tv_shows_worksheet(
@@ -288,7 +323,7 @@ def create_tv_shows_worksheet(
                     apply_cell_styling(cell, fill=fill)
             else:
                 apply_cell_styling(cell, fill=STYLES['fills']['gray'])
-
+    
     auto_adjust_columns(ws)
 
 def main():
@@ -342,3 +377,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+# End of script
